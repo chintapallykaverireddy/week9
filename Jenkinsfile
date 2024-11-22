@@ -1,5 +1,5 @@
 pipeline {
-    agents any 
+    agent any 
     stages {
         stage('Build'){
             steps{
@@ -19,7 +19,7 @@ pipeline {
         stage('deploy'){
             steps{
                 script{
-                    bat "deploying."
+                    echo "deploying."
                 }
             }
         }
