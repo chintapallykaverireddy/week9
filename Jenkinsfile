@@ -4,6 +4,7 @@ pipeline {
         stage('Build'){
             steps{
                 script{
+                    bat "docker login"
                     bat "docker build -t week9image ."
                 }
             }
