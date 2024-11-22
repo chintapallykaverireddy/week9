@@ -18,7 +18,7 @@ pipeline {
         stage('deploy'){
             steps{
                 script{
-                    bat "deploying."
+                    echo "deploying."
                 }
             }
         }
