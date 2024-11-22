@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: my-kube1-container
-          image: kaverireddy046/week9image:latest  # Your Docker image
+          image: kaverireddy046/week9:latest  # Your Docker image
           ports:
             - containerPort: 3005  # The port where the Node.js app is listening
           resources:
