@@ -13,7 +13,7 @@ spec:
     metadata:
       labels:
         app: my-kube-app1
-    spec:
+    spec: 
       containers:
         - name: my-kube1-container
           image: kaverireddy046/week9:latest  # Your Docker image

@@ -6,6 +6,7 @@ pipeline {
                 script{
                     bat "docker login"
                     bat "docker build -t week9image ."
+                    bat "docker run -d -p 3005:3005 week9image"
                 }
             }
         }
